@@ -1,5 +1,11 @@
 function nthFibonacciTerm(n) {
-  
+  if (n <= 1) {
+    return 0;
+  }
+  if (n === 2) {
+    return 1;
+  }
+  return nthFibonacciTerm(n - 2) + nthFibonacciTerm(n - 1);
 }
 
 function isPassed(expected, actual) {
