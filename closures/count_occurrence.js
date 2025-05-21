@@ -1,0 +1,3 @@
+const occurences = function (word) {
+  
+}
